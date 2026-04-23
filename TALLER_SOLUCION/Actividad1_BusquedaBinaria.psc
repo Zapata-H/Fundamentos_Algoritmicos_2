@@ -16,11 +16,11 @@ Algoritmo BusquedaBinaria
 	
 	encontrado <- Falso;
 	
-	Escribir "=== SISTEMA BÚSQUEDA BINARIA ===";
+	Escribir "=== SISTEMA Bï¿½SQUEDA BINARIA ===";
 	Escribir "Registros disponibles:";
 	Escribir "1002, 1045, 2098, 3301, 3311, 4005, 5020, 6081";
 	Escribir "";
-	Escribir "Ingrese el número de registro a localizar:";
+	Escribir "Ingrese el nï¿½mero de registro a localizar:";
 	Leer meta;
 	
 	inicio <- 0;
@@ -29,12 +29,12 @@ Algoritmo BusquedaBinaria
 	Mientras (inicio <= final) Y (encontrado = Falso) Hacer
 		mitad <- TRUNC((inicio + final) / 2);
 		
-		Escribir "Comparando con posición ", mitad, ": ", registros[mitad];
+		Escribir "Comparando con posiciï¿½n ", mitad, ": ", registros[mitad];
 		
 		Si registros[mitad] = meta Entonces
 			Escribir "";
-			Escribir "? ¡ÉXITO! Registro localizado";
-			Escribir "Posición en el sistema: ", mitad;
+			Escribir "? ï¿½ï¿½XITO! Registro localizado";
+			Escribir "Posiciï¿½n en el sistema: ", mitad;
 			Escribir "Valor del registro: ", registros[mitad];
 			encontrado <- Verdadero;
 		Sino
