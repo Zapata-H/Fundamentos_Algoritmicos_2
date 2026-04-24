@@ -35,8 +35,14 @@ Comparando con posición 7: 6081 → Buscando en mitad superior
 
 
 📊Actividad 2: Análisis con Flowgorithm
+
 Diagrama: [ Descripción ]
 
+Lo que hace este diagrama "Búsqueda Lineal" es agarrar el tamaño de (n) y el valor a buscar  (meta),Esto mediante del ciclo usado "For" ,que llena el arreglo con datos enteros,finalmente utilizando "While" con "booleana"(encontrado) para que recorra el arreglo puesto por puesto hasta que encuentra el valor de los datos
+
+ Complejidad: O(n)
+
+ La complejidad de el algoritmo es Lineal y esta se representa como O(n),esto se debe a que en el momento que se esta ejecutando este crece de manera proporcional a la cantidad de elementos que hayan sido ingresados 
 
 
 🔄Actividad 3: Colas FIFO
@@ -77,6 +83,8 @@ Resultados: [ Tabla ]
  🤖Recomendaciones: [ Análisis ]
 
 La búsqueda lineal  y binaria se comparan porque ambas utilizan el mismo conjunto de datos,los resultados muestran que la búesqueda lineal hace más comparaciones porque esta revisa cada elemento uno por uno,mientras que la búsqueda binaria lo que hace es reducir el número de comparaciones al dividir el arreglo de mitades.
+ 
+ Se mira que la mejora es mayor cuando el elemento esta al final o este no existe,ya que en esos casos la búsqueda lineal recorre todo el arreglo,Más sin embargo cuando este se encuentra al inicio la búsqueda puede ser más rápida.En coclusión la búsqueda binaria es más eficiente pero esta nesecita que los datos esten ordenados.
 
 
 
