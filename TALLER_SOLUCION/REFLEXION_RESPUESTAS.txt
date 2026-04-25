@@ -1,0 +1,54 @@
+🎓 Preguntas de Reflexión Final
+
+♦️Nivel 1: Comprensión
+
+¿Cuál es la diferencia fundamental entre búsqueda lineal y binaria?
+
+La diferencia fundamental entre estos dos es,Que uno recorre elemento por elemento siendo mas lenta a la hora de encontrar el resultado (Lineal) 
+y la Binaria divide el problema a la mitad cada vez,haciendo que esta sea mucho más eficiente.
+
+¿Por qué un vector debe estar ordenado para usar búsqueda binaria?
+
+Porque la binaria nesecita saber si va a ir para la izquierda o va a ir para la derecha,Si este no esta ordenado queda perdido.
+
+¿Qué significa FIFO y cómo lo experimentas en tu vida cotidiana?
+
+Significa First ,In First Out ,que es el primero que entra,el primero que sale y se expeirmenta en la vida codiana cuando hacemos fila para comprar 
+ya sea alimentos,fila para entrar el cine o subir al bus.
+
+🔷Nivel 2: Aplicación
+
+Si tuvieras una base de datos de 1 millón de registros, ¿cuál algoritmo recomendarías? ¿Por qué?
+Recomendaria el binario,porque este va hacer más rapido la búsqueda de los registros y comparaciones logrando que sea más eficiente para las grandes
+cantidades de datos.
+
+Diseña un escenario donde una cola FIFO sería inapropiada. ¿Qué estructura usarías?
+
+Una cola FIFO inapropiada seria por ejemplo las urgencias médicas,ya que en esta no atienden por un orden de llegada,Sino por uno de gravedad 
+Entonces se tendria que usar una cola de prioridad
+
+¿Puede fallar la búsqueda binaria en algún caso? Describe
+
+Si puede fallar,si el cojunto de datos que nos esten dando no estan ordenados y este no podria dividir correctamente en el espacio de búsqueda.
+
+🔶Nivel 3: Síntesis
+Compara el costo de ordenamiento + búsqueda binaria vs búsqueda lineal directa para:
+
+Dataset pequeño (n=100)
+
+Se usa lineal,ya que son pocos datos y buscar uno por uno es rápido y ordenar los datos tomaria más tiempo del que se ahorra usando la búsqueda
+
+Dataset mediano (n=100,000)
+
+En esta seria mejor usar ordenamiento + binaria ,ya que lo haría rapdio y aunque se demora el ordemar la búsqueda binaria permite encontrar
+los resultados más rapido
+
+Dataset grande (n=1,000,000)
+Tambien es mejor usar binaria + ordenamiento,porque esto ya es una cantidad más grande de datos y la búesqueda lineal sera muy ineficiente,
+el tiempo que se invierte en ordenar se compensa con la rapidez de la binaria
+
+Propón un algoritmo híbrido que combine búsqueda lineal y binaria.
+
+Se puede combinar ambos primero aplicando la búsqueda binaria para reducir el rango de búsqueda y cuando ya queden pocos elementos usamos la 
+búesqueda lineal y asi prodriamos aprovechar ambos métodos.
+

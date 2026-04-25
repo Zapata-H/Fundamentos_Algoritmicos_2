@@ -87,6 +87,19 @@ La búsqueda lineal  y binaria se comparan porque ambas utilizan el mismo conjun
  Se mira que la mejora es mayor cuando el elemento esta al final o este no existe,ya que en esos casos la búsqueda lineal recorre todo el arreglo,Más sin embargo cuando este se encuentra al inicio la búsqueda puede ser más rápida.En coclusión la búsqueda binaria es más eficiente pero esta nesecita que los datos esten ordenados.
 
 
+👀Resumen Ejecutivo:
+
+En resumen lo que logre entender y aprender de este taller fue que entre lo que es la búesquedaa lineal y la búesqueda binaria hay ciertas diferencias.Cada una con una caracteristica en especefico ,como que la lineal lo que hace es revisar cada elemento uno por uno haciendo que esta sea más sencilla pero no tan eficiente, mientras que la binaria lo divide en partes permitiendo encontrar un elemento más rapido cuando los datos estan ordenados,haciendola más eficiente.
+
+
+Tambien entendi la importante que es la "complejidad" de los algoritmos ya que esta nos permite medir el rendimiento y la eficiencia de cada metodo,Fuera de esto aprendi sobre las estructaras de datos como la de lascolas FIFO ,entendiendo como funcionan y como se ven aplicadas en lo que es mi vida cotidiana
+
+
+👀Conclusiones y Aprendizajes:
+
+La conlusion y los aprendizajes serian que más o menos pude entender que la elección de algoritmo es muy importante dependiendo del problema que se quiera resolver.
+
+El taller me permitio comprender mejor ciertos conceptos de los Algoritmos,Estructuras de datos,ayudandome a mejorar la lógica.
 
 
 
